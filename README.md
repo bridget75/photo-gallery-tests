@@ -6,21 +6,24 @@ Automated tests for the Photo Gallery application, written using the Playwright 
 ## 📦 Setup
 
 1. Clone the repository:
-   ```bash
-git clone https://github.com/bridget75/photo-gallery-tests.git
-cd photo-gallery-tests
+   ```
+   git clone https://github.com/bridget75/photo-gallery-tests.git
+   cd photo-gallery-tests
+
 
 
 
 2.Install dependencies:
-
+  ```
 npm install
-
+ ```
 
 
 3. Install Playwright browsers:
 
+ ```
 npx playwright install
+ ```
 
 
 
@@ -29,11 +32,15 @@ npx playwright install
 ## ▶️ Running Tests
 
 1. To run the positive login test only:
+ ```
 npx playwright test tests/login.spec.js
+ ```
 
 
 2. To run all tests:
+ ```
 npx playwright test
+ ```
 
 
 
