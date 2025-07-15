@@ -46,7 +46,7 @@ npx playwright test
 
 ## ℹ️ Notes
 
-- Browser used: Chromium (headless)
+- Browser used: Chromium
 - Testing Framework: Playwright
 - Tests are located in the tests/ folder.
 - For detailed test reports, check the playwright-report folder generated after running tests.
