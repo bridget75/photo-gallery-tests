@@ -1,0 +1,12 @@
+{
+  "name": "photo-gallery-tests",
+  "version": "1.0.0",
+  "description": "Automated test for Photo Gallery Starter Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1"
+  }
+}
