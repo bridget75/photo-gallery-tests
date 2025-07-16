@@ -51,4 +51,7 @@ npx playwright test
 - Tests are located in the tests/ folder.
 - For detailed test reports, check the playwright-report folder generated after running tests.
 - If you want to run tests with browser UI (headed mode), add --headed flag:
+- Windows users: If you encounter a script execution error when installing or running tests, run the following command in PowerShell:
+ ```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass ```
+
 
